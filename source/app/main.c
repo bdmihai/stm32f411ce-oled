@@ -96,8 +96,8 @@ static void vTaskDisplay(void *pvParameters)
     ssd1339_set_use_buildin_lut();
     ssd1339_set_sleep_mode(SSD1339_SLEEP_OFF);
     ssd1339_set_display_mode(SSD1339_MODE_ALL_OFF);
-    ssd1339_set_contrast_curent(2,255,255);
-    ssd1339_set_precharge_voltage(3, 255, 255);
+    ssd1339_set_contrast_curent(1,200,200);
+    ssd1339_set_precharge_voltage(2, 255, 255);
     ssd1339_set_display_mode(SSD1339_MODE_RESET_TO_NORMAL_DISPLAY);
  
     uint8_t all = 0;
